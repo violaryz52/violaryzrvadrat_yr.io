@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   const a = prompt('Введите a:');
+   const b = prompt('Введите b:');
+   const c = prompt('Введите c:');
+   const D = b**2-4*a*c;
+   const sqrtD = Math.sqrt(D)
+   if (D<0) {
+       alert("Корней нет")
+   }
+   else if(D==0){
+      const x = (-b  / 2 * a) 
+     alert( "Один корень"+` x = ${x}`)
+   }
+   else{
+   const x1 = (-b + sqrtD) / (2 * a);
+   const x2 = (-b - sqrtD) / (2 * a);
+  alert(`${x1} и ${x2}`);}
+    </script>
+</body>
+</html>
 
